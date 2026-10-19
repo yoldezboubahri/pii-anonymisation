@@ -20,7 +20,9 @@ data/
 .cache/
 huggingface/
 
-# Modèles et checkpoints d'entraînement
+# Modèle fine-tuné et checkpoints du Trainer
+modele-pii-fr/
+checkpoint-*/
 checkpoints/
 results/
 runs/
