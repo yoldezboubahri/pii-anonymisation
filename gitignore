@@ -1,20 +1,38 @@
-# Données (trop volumineuses pour Git)
-data/*
-!data/.gitkeep
-*.csv
-*.csv.gz
-*.jsonl
-*.jsonl.gz
+# Environnements virtuels
+venv/
+.venv/
+env/
 
-# Python / Jupyter
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-.venv/
-venv/
-.env
+.pytest_cache/
 
-# OS / IDE
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+
+# Données et caches Hugging Face
+data/
+.cache/
+huggingface/
+
+# Modèles et checkpoints d'entraînement
+checkpoints/
+results/
+runs/
+logs/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.pkl
+*.joblib
+
+# Système
 .DS_Store
-.vscode/
-.idea/
+Thumbs.db
