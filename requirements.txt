@@ -1,13 +1,11 @@
-# Estimation à partir de la description du projet : voir la commande de génération exacte dans le message
 datasets
 transformers
-torch
 accelerate
+torch
 scikit-learn
+scipy
 numpy
 pandas
 matplotlib
 seaborn
-seqeval
-tqdm
 jupyter
