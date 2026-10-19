@@ -1,0 +1,20 @@
+# Données (trop volumineuses pour Git)
+data/*
+!data/.gitkeep
+*.csv
+*.csv.gz
+*.jsonl
+*.jsonl.gz
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

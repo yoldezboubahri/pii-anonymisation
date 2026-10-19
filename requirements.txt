@@ -1,0 +1,13 @@
+# Estimation à partir de la description du projet : voir la commande de génération exacte dans le message
+datasets
+transformers
+torch
+accelerate
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+seqeval
+tqdm
+jupyter
